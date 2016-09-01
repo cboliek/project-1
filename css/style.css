@@ -1,0 +1,81 @@
+.top-row-blue, .mini, .question, .settings  {
+  background-color: #208ce3;
+  padding-top: 1em;
+  text-align: right;
+  color: #ffffff;
+}
+
+.menu-bar {
+  background-color: #194b73;
+}
+
+/*start top bar*/
+
+.question, .settings {
+  padding-left: 3px;
+  background-color: #208ce3;
+  border-left-style: solid;
+  border-left-color: #1c85d8;
+  border-left-width: 5px;
+}
+
+div.side-border-top {
+  border-left-style: solid;
+  border-left-width: 0.1em;
+  border-left-color: #1c85d8;
+  border-right-style: solid;
+  border-right-width: 0.1em;
+  border-right-color: #1c85d8;
+  margin: 0em 0.5em 0 0.5em;
+}
+
+
+/*end top bar*/
+
+/*start menu bar*/
+
+
+
+/*end menu bar*/
+
+/*start dashboard-bar*/
+.dashboard-bar {
+  background:#33cc66;
+  border-radius: 0.4em;
+  margin: 1em -0.3em 2em -0.3em;
+  padding: 0.3em 0 0.5em 0;
+}
+
+.dash-text {
+  font-size: 2em;
+  color: #ffffff;
+}
+
+#searchbar {
+  border: 1px solid #2db55b;
+  border-radius:4px;
+  margin: 1.2em 0 0 1em;
+  width: 10em;
+  background: white url(sprites.png) -288px -705px no-repeat;
+  width: 13.8em;
+  height: 30px;
+}
+
+@media screen and (max-width: 640px) {
+  #searchbar {
+    background: white url(sprites.png) -340px -705px no-repeat;
+    width: 10em;
+    height: 30px;
+  }
+}
+/*end dashboard-bar*/
+
+/*start body content*/
+body {
+  font-family: "Myriad Pro", san-serif;
+}
+
+h2 {
+  color: #50a7f5;
+  font-size: 1.8em;
+}
