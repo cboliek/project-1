@@ -1,0 +1,49 @@
+.bar-green, .dashboard-green, .tag-green, .profile-green-3, .message-green, .icon-page{
+	background: url(../images/sprites.png) no-repeat;
+	    display: inline-block;
+			    margin: 15px;
+}
+
+@media query (max-width: 600px) {
+	.bar-green, .dashboard-green, .tag-green, .profile-green-3, .message-green, .page-green {
+		background: url(../images/sprites.png) no-repeat;
+		;
+	}
+
+}
+}
+.bar-green{
+	background-position: -472px -146px ;
+	width: 40px;
+	height: 48px;
+}
+
+.dashboard-green{
+	background-position: -113px -142px ;
+	width: 56px;
+	height: 56px;
+}
+
+.tag-green{
+	background-position: -339px -151px ;
+	width: 50px;
+	height: 51px;
+}
+
+.profile-green-3{
+	background-position: -192px -150px ;
+	width: 59px;
+	height: 40px;
+}
+
+.message-green{
+	background-position: -269px -153px ;
+	width: 56px;
+	height: 45px;
+}
+
+.page-green{
+	background-position: -406px -148px ;
+	width: 45px;
+	height: 50px;
+}
