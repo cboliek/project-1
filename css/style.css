@@ -1,4 +1,4 @@
-/*start top bar*/
+/*start top row (mini, question, settings)*/
 .top-row-blue {
   text-align: right;
   padding-top: 1em;
@@ -23,9 +23,9 @@ div.side-border-top {
 }
 
 
-/*end top bar*/
+/*end top row*/
 
-/*start menu bar*/
+/*start navigation row (icons: dashboard, profile, message, tag, page, bar)*/
 
 .main-menu {
   position: relative;
@@ -115,9 +115,9 @@ div#bar:hover .bar-blue {
   display: none;
  }
 
-/*end menu bar*/
+/*end navigation row */
 
-/*start dashboard-bar*/
+/*start dashboard row (dashboard and search bar with magnifying glass icon)*/
 .dashboard-bar {
   background:#33cc66;
   border-radius: 0.4em;
@@ -147,7 +147,7 @@ div#bar:hover .bar-blue {
     height: 30px;
   }
 }
-/*end dashboard-bar*/
+/*end dashboard row */
 
 /*start body content*/
 body {
@@ -163,7 +163,7 @@ h2 {
   margin-left: 0px;
 } /*code by davidkonrad found at http://stackoverflow.com/questions/15728336/the-row-is-larger-than-the-container-in-bootstrap*/
 
-  /*start announcements*/
+  /*start announcements row (Announcements and the latin) */
 .bottom-border {
   border-bottom: 1px solid #e9e9e9;
   -moz-box-shadow: 0 0.3em 0.3em -0.2em #ededed;
@@ -194,7 +194,7 @@ a.left-arrow-button, a.right-arrow-button {
   margin: 0.8em 0 0 0;
 }
 
-  /*end announcements*/
+  /*end announcements row */
 
 .full-content {
   border-style: solid;
@@ -227,7 +227,7 @@ a.left-arrow-button, a.right-arrow-button {
     border-color: #eaeaea;
     background-color: #fff;
 }
-/*start tasks*/
+/*start tasks column (welcome contacts, provide responses, review activity, reach out)*/
 
 .task-section {
   margin: 0 0em 0 -1.1em;
@@ -305,8 +305,8 @@ div.task-option:hover .circle {
   margin: 0.25em 0 0.3em 1.9em;
   display: inline-flex;
 }
-/*end tasks*/
-/*start recommendation*/
+/*end tasks column */
+/*start recommendations column (7 steps to getting more fans, increase traction w/ more interactions, creating a promotion, share more)*/
 .rec-section {
   margin: 0 -1.1em 0 -1.1em;
 }
@@ -341,29 +341,29 @@ div.task-option:hover .circle {
 .recommendation-option:hover {
   color: #2498f3;
 }
-/*end recommendation*/
+/*end recommendation column */
 
-/*start analytics*/
+/*start analytics section */
 
 select#dropdown {
+  font-size: 14px;
+  background: #ffffff url(sprites.png) no-repeat -50px -338px;
+  border-color: #dddddd;
+  color: #666666;
   display: inline;
   -webkit-appearance: button;
   -moz-appearance: none;
   border-style: solid;
   border-width: 1px;
-  border-color: #dddddd;
-  color: #666666;
   -webkit-border-radius: 2px;
   border-radius: 2px;
-  font-size: 14px;
   padding: 5px 5px 5px 9px;
   margin: -2em 0 1em 0;
   cursor: pointer;
-  background: #ffffff url(sprites.png) no-repeat -50px -338px;
   width: 162px;
   height: 29px;
   float: right;
- /*background-size: 40px 37px; /*TO ACCOUNT FOR @2X IMAGE FOR RETINA */
+/* credit: ^ Katherine Boliek https://github.com/katherineboliek/j586-project1/blob/master/css/styles.css */
 }
 
 .analytics {
