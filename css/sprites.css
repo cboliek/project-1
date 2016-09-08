@@ -1,49 +1,370 @@
-.bar-green, .dashboard-green, .tag-green, .profile-green-3, .message-green, .icon-page{
-	background: url(../images/sprites.png) no-repeat;
-	    display: inline-block;
-			    margin: 15px;
+.Application-Dashboard-(3)_29, .arrow-blue, .arrow-orange-left-back, .arrow-orange-left, .arrow-orange-right-back, .arrow-orange-right, .bar-blue, .bar-green, .check-orange, .dashboard-blue, .dashboard-green, .facebook, .graph-big, .gray-box, .green-graph, .menu-background, .message-blue, .message-green, .orange-graph, .orange-line, .page-blue, .page-green, .pie-graph-1, .pie-graph-2, .profile-blue-3, .profile-blue, .profile-green-3, .profile-green, .question, .rec-bulb, .rec-check, .rec-page, .ribbon-left, .ribbon-right, .see-what, .settings-gray, .settings, .white-box, .rec-page, .profile-blue, .profile-blue, .profile-blue, .version, .watch-what-you-say, .white-box, .tag-green, .tag-blue, .gray-box, .twitter, .weird, .youtube, .gray-box, .gray-box, .gray-box, .check-orange, .check-orange, .check-orange, .white-box, .white-box, .white-box, .white-box{
+	background: url(sprites.png) no-repeat;
+	display: block;
 }
 
-@media query (max-width: 600px) {
-	.bar-green, .dashboard-green, .tag-green, .profile-green-3, .message-green, .page-green {
-		background: url(../images/sprites.png) no-repeat;
-		;
-	}
+.Application-Dashboard-(3)_29{
+	background-position: -638px -413px ;
+	width: 23px;
+	height: 24px;
+}
 
+.arrow-blue{
+	background-position: -285px -477px ;
+	width: 27px;
+	height: 22px;
 }
+
+.arrow-orange-left-back{
+	background-position: -287px -300px ;
+	width: 43px;
+	height: 66px;
 }
-.bar-green{
-	background-position: -472px -146px ;
+
+.arrow-orange-left{
+	background-position: -383px -319px ;
+	width: 13px;
+	height: 21px;
+}
+
+.arrow-orange-right-back{
+	background-position: -334px -299px ;
+	width: 31px;
+	height: 66px;
+}
+
+.arrow-orange-right{
+	background-position: -405px -316px ;
+	width: 11px;
+	height: 24px;
+}
+
+.bar-blue{
+	background-position: -564px -217px ;
 	width: 40px;
 	height: 48px;
 }
 
+.bar-green{
+	background-position: -566px -154px ;
+	width: 40px;
+	height: 48px;
+}
+
+.check-orange{
+	background-position: -432px -486px ;
+	width: 22px;
+	height: 21px;
+}
+
+.dashboard-blue{
+	background-position: -90px -215px ;
+	width: 59px;
+	height: 73px;
+}
+
 .dashboard-green{
-	background-position: -113px -142px ;
+	background-position: -94px -142px ;
 	width: 56px;
 	height: 56px;
 }
 
-.tag-green{
-	background-position: -339px -151px ;
-	width: 50px;
-	height: 51px;
+.facebook{
+	background-position: -513px -1122px ;
+	width: 22px;
+	height: 20px;
 }
 
-.profile-green-3{
-	background-position: -192px -150px ;
-	width: 59px;
-	height: 40px;
+.graph-big{
+	background-position: -276px -627px ;
+	width: 425px;
+	height: 203px;
+}
+
+.gray-box{
+	background-position: -313px -396px ;
+	width: 18px;
+	height: 18px;
+}
+
+.green-graph{
+	background-position: -898px -498px ;
+	width: 190px;
+	height: 47px;
+}
+
+.menu-background{
+	background-position: 0 -30px ;
+	width: 1200px;
+	height: 111px;
+}
+
+.message-blue{
+	background-position: -293px -221px ;
+	width: 57px;
+	height: 48px;
 }
 
 .message-green{
-	background-position: -269px -153px ;
+	background-position: -299px -155px ;
 	width: 56px;
 	height: 45px;
 }
 
+.orange-graph{
+	background-position: -1169px -387px ;
+	width: 78px;
+	height: 82px;
+}
+
+.orange-line{
+	background-position: -1115px -498px ;
+	width: 190px;
+	height: 47px;
+}
+
+.page-blue{
+	background-position: -477px -220px ;
+	width: 43px;
+	height: 48px;
+}
+
 .page-green{
-	background-position: -406px -148px ;
+	background-position: -478px -153px ;
 	width: 45px;
 	height: 50px;
+}
+
+.pie-graph-1{
+	background-position: -764px -141px ;
+	width: 109px;
+	height: 105px;
+}
+
+.pie-graph-2{
+	background-position: -765px -250px ;
+	width: 106px;
+	height: 98px;
+}
+
+.profile-blue-3{
+	background-position: -185px -222px ;
+	width: 62px;
+	height: 42px;
+}
+
+.profile-blue{
+	background-position: -161px -336px ;
+	width: 20px;
+	height: 22px;
+}
+
+.profile-green-3{
+	background-position: -189px -154px ;
+	width: 59px;
+	height: 40px;
+}
+
+.profile-green{
+	background-position: -953px -391px ;
+	width: 78px;
+	height: 82px;
+}
+
+.question{
+	background-position: -1204px -17px ;
+	width: 23px;
+	height: 21px;
+}
+
+.rec-bulb{
+	background-position: -58px -480px ;
+	width: 14px;
+	height: 23px;
+}
+
+.rec-check{
+	background-position: -56px -429px ;
+	width: 22px;
+	height: 20px;
+}
+
+.rec-page{
+	background-position: -56px -385px ;
+	width: 19px;
+	height: 23px;
+}
+
+.ribbon-left{
+	background-position: -528px -283px ;
+	width: 15px;
+	height: 40px;
+}
+
+.ribbon-right{
+	background-position: -551px -282px ;
+	width: 16px;
+	height: 40px;
+}
+
+.see-what{
+	background-position: -335px -860px ;
+	width: 286px;
+	height: 193px;
+}
+
+.settings-gray{
+	background-position: -136px -301px ;
+	width: 20px;
+	height: 20px;
+}
+
+.settings{
+	background-position: -1236px -18px ;
+	width: 23px;
+	height: 21px;
+}
+
+.white-box{
+	background-position: -153px -423px ;
+	width: 16px;
+	height: 16px;
+}
+
+.rec-page{
+	background-position: -56px -338px ;
+	width: 19px;
+	height: 23px;
+}
+
+.profile-blue{
+	background-position: -157px -384px ;
+	width: 20px;
+	height: 22px;
+}
+
+.profile-blue{
+	background-position: -157px -426px ;
+	width: 20px;
+	height: 22px;
+}
+
+.profile-blue{
+	background-position: -155px -476px ;
+	width: 20px;
+	height: 22px;
+}
+
+.version{
+	background-position: -670px -861px ;
+	width: 303px;
+	height: 193px;
+}
+
+.watch-what-you-say{
+	background-position: -6px -862px ;
+	width: 283px;
+	height: 180px;
+}
+
+.white-box{
+	background-position: -606px -458px ;
+	width: 16px;
+	height: 16px;
+}
+
+.tag-green{
+	background-position: -391px -155px ;
+	width: 50px;
+	height: 51px;
+}
+
+.tag-blue{
+	background-position: -392px -220px ;
+	width: 50px;
+	height: 50px;
+}
+
+.gray-box{
+	background-position: -705px -486px ;
+	width: 18px;
+	height: 18px;
+}
+
+.twitter{
+	background-position: -556px -1120px ;
+	width: 19px;
+	height: 20px;
+}
+
+.weird{
+	background-position: -793px -1078px ;
+	width: 21px;
+	height: 20px;
+}
+
+.youtube{
+	background-position: -918px -1091px ;
+	width: 18px;
+	height: 20px;
+}
+
+.gray-box{
+	background-position: -488px -486px ;
+	width: 18px;
+	height: 18px;
+}
+
+.gray-box{
+	background-position: -604px -487px ;
+	width: 18px;
+	height: 18px;
+}
+
+.gray-box{
+	background-position: -816px -487px ;
+	width: 18px;
+	height: 18px;
+}
+
+.check-orange{
+	background-position: -767px -484px ;
+	width: 22px;
+	height: 21px;
+}
+
+.check-orange{
+	background-position: -552px -484px ;
+	width: 22px;
+	height: 21px;
+}
+
+.check-orange{
+	background-position: -663px -485px ;
+	width: 22px;
+	height: 21px;
+}
+
+.white-box{
+	background-position: -708px -461px ;
+	width: 16px;
+	height: 16px;
+}
+
+.white-box{
+	background-position: -324px -512px ;
+	width: 16px;
+	height: 16px;
+}
+
+.white-box{
+	background-position: -818px -462px ;
+	width: 16px;
+	height: 16px;
+}
+
+.white-box{
+	background-position: -490px -461px ;
+	width: 16px;
+	height: 16px;
 }

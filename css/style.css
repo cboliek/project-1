@@ -33,9 +33,15 @@ div.side-border-top {
   margin: 0 auto;
 }
 
+.menu-background {
+  position: relative;
+
+}
+
 
 #dashboard, #profile-3, #message, #tag, #page, #bar {
   margin: 0 1em 0 1em;
+  display: inline-block;
 }
 
 @media screen and (max-width: 991px) {
@@ -122,7 +128,8 @@ div#bar:hover .bar-blue {
   background:#33cc66;
   border-radius: 0.4em;
   margin: 1em -0.3em 2em -0.3em;
-  padding: 0.3em 0 0.5em 0;
+  padding: 0.3em 0 0.5em 0.4em;
+  margin-left: auto;
 }
 
 .dash-text {
@@ -152,6 +159,9 @@ div#bar:hover .bar-blue {
 /*start body content*/
 body {
   font-family: "Myriad Pro", san-serif;
+  overflow-x: hidden;
+
+
 }
 
 h2 {
@@ -490,13 +500,13 @@ div.orange-body {
   margin-top: -1.8em;
 }
 
-div.chart-green {
+div.green-graph {
   display: block;
   margin: 0 auto;
   margin-bottom: 0.5em;
 }
 
-div.chart-orange {
+div.orange-line {
   display: block;
   margin: 0 auto;
   margin-bottom: 0.5em;
@@ -627,13 +637,13 @@ span.footer-avatar {
   margin-top: -0.5em;
 }
 
-span.fb {
+span.facebook {
   display: inline-flex;
 }
 span.twitter {
   display: inline-flex;
 }
-span.foursquare {
+span.weird {
   display: inline-flex;
 }
 span.youtube {
