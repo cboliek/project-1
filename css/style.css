@@ -199,7 +199,7 @@ h2 {
   padding-left: 0.4em;
 }
 
-a.left-arrow-button, a.right-arrow-button {
+a.arrow-orange-left, a.arrow-orange-right {
   display: inline-flex;
   margin: 0.8em 0 0 0;
 }
@@ -243,7 +243,7 @@ a.left-arrow-button, a.right-arrow-button {
   margin: 0 0em 0 -1.1em;
 }
 
-div.gray-gear {
+div.settings-gray {
   margin: 1.5em 0 0 0;
 }
 
@@ -285,8 +285,8 @@ div.task-option:hover .circle {
   background: #cccccc;
 }
 
-.task-person { position: absolute; left: 2em; }
-.task-person-hover { position: absolute; left: 2.15em; top: 0.3em; }
+.profile-blue { position: absolute; left: 2em; }
+.profile-blue{ position: absolute; left: 2.15em; top: 0.3em; }
 
 .task-text {
   font-size: 1.1em;
@@ -305,7 +305,7 @@ div.task-option:hover .circle {
   margin-left: 0.6em;
 }
 
-.task-person {
+.profile-blue {
   margin: 0.25em 0 0.1em 0.15em;
 }
 
@@ -443,13 +443,13 @@ input[type="checkbox"]:checked + label span {
   margin-left: -1em;
 }
 
-span.left-banner {
+span.ribbon-left {
   position: relative;
   top: -10.3em;
   left: -2.2em;
 }
 
-span.right-banner {
+span.ribbon-right {
   position: relative;
   top: -13.1em;
   left: 14.45em;
@@ -532,7 +532,7 @@ div.orange-line {
   line-height: 1.2em;
 }
 
-.left-arrow-did-button {
+.arrow-orange-left-back {
   float: left;
   position: relative;
     top: 2em;
@@ -540,7 +540,7 @@ div.orange-line {
   margin-right: -0.5em;
 }
 
-.right-arrow-did-button {
+.arrow-orange-right-back {
   float: right;
   position: relative;
     top: 2em;
@@ -567,15 +567,15 @@ div.orange-line {
   background-color: #ffffff;
 }
 
-.promo-one {
+.watch-what-you-say {
   margin-left: -1.05em;
 }
 
-.promo-two {
+.see-what {
   margin: -0.75em 0 0 -0.6em;
 }
 
-.promo-three {
+.version {
   margin: 0 0 0 0.05em;
 }
 
@@ -589,7 +589,7 @@ div.orange-line {
   .promo-box {
     margin: 2em auto 2em auto;
   }
-  .promo-two {
+  .see-what {
     position: relative;
       top: -1em;
   }
