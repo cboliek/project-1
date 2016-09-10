@@ -1,9 +1,10 @@
-.Application-Dashboard-(3)_29, .arrow-blue, .arrow-orange-left-back, .arrow-orange-left, .arrow-orange-right-back, .arrow-orange-right, .bar-blue, .bar-green, .check-orange, .dashboard-blue, .dashboard-green, .facebook, .graph-big, .gray-box, .green-graph, .menu-background, .message-blue, .message-green, .orange-graph, .orange-line, .page-blue, .page-green, .pie-graph-1, .pie-graph-2, .profile-blue-3, .profile-blue, .profile-green-3, .profile-green, .question, .rec-bulb, .rec-check, .rec-page, .ribbon-left, .ribbon-right, .see-what, .settings-gray, .settings, .white-box, .rec-page, .profile-blue, .profile-blue, .profile-blue, .version, .watch-what-you-say, .white-box, .tag-green, .tag-blue, .gray-box, .twitter, .weird, .youtube, .gray-box, .gray-box, .gray-box, .check-orange, .check-orange, .check-orange, .white-box, .white-box, .white-box, .white-box{
-	background-image: url(../images/sprites.png) no-repeat;
+.sprites {
+	background-image: url(../css/sprites.png);
+	background-repeat: no-repeat;
 	display: block;
 }
 
-.Application-Dashboard-(3)_29{
+.Application-Dashboard{
 	background-position: -638px -413px ;
 	width: 23px;
 	height: 24px;
