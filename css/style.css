@@ -1,8 +1,13 @@
 /*start top row (mini, question, settings)*/
+.body {
+  background-image: url("../images/sprites.png") no-repeat;
+}
 .top-row-blue {
   text-align: right;
   padding-top: 1em;
-  color: #fff;
+  color: fff;
+  background-color: #1c85d8;
+  height: 3em;
 }
 
 div.question div.settings {
@@ -42,6 +47,8 @@ div.side-border-top {
 #dashboard, #profile-3, #message, #tag, #page, #bar {
   margin: 0 1em 0 1em;
   display: inline-block;
+
+
 }
 
 @media screen and (max-width: 991px) {
