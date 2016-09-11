@@ -5,9 +5,9 @@
 .top-row-blue {
   text-align: right;
   padding-top: 1em;
-  color: fff;
+  color: white;
   background-color: #1c85d8;
-  height: 3em;
+  height: 3.2em;
 }
 
 div.question div.settings {
@@ -31,22 +31,42 @@ div.side-border-top {
 /*end top row*/
 
 /*start navigation row (icons: dashboard, profile, message, tag, page, bar)*/
+.menu {
+  background: url("../css/menu-background.png") no-repeat;
+  background-size: 100% 100%;
+}
+
+@media screen and (min-width: 700px) {
+  .menu {
+    height: 120px;
+  }
+}
+@media screen and (max-width: 700px) {
+  .menu {
+    height: 200px;
+  }
+
+}
 
 .main-menu {
   position: relative;
-  top: -5.5em;
+  /*top: -5.5em;*/
   margin: 0 auto;
+
 }
 
-.menu-background {
+/*img {
   position: relative;
+  background-image: url("../project-1/css/menu-background.png");
+  background-size: 100% 100%;*/
+
 
 }
 
 
 #dashboard, #profile-3, #message, #tag, #page, #bar {
   margin: 0 1em 0 1em;
-  display: inline-block;
+  /*display: inline-flex;*/
 
 
 }
@@ -92,38 +112,98 @@ div.side-border-top {
     left: 3em;
 }
 
-div.dashboard-green { position: absolute; left: 49px; bottom: -65px;}
-div.dashboard-blue { position: absolute; left: 50px; bottom: -50px;}
+div.dashboard-green {
+  position: absolute;
+  top: 15px;
+  /*left: 50px; */
+  /*bottom: -65px;*/
+}
+
+div.dashboard-green:hover {
+  background: url(../css/sprites.png) no-repeat;
+  background-position: -90px -215px;
+  padding: 0 60px 0 0;
+  /*left: 14.5px;*/
+}
+div.dashboard-blue {
+  /*position: absolute;*/
+  /*left: 53px;*/
+  /*bottom: -65px;*/
+}
+
 div#dashboard:hover .dashboard-blue {
   display: none;
 }
 
-div.profile-green-3 { position: absolute; left: 50px; bottom: -65px;}
-div.profile-blue-3 { position: absolute; left: 50px; bottom: -43px;}
+div.profile-green-3 {
+  position: absolute;
+  left: 50px; bottom: -65px;}
+
+div.profile-green-3:hover {
+  background: url(../css/sprites.png) no-repeat;
+  background-position: -185px -222px;
+}
+/*div.profile-blue-3 { position: absolute; left: 50px; bottom: -65px;}*/
 div#profile-3:hover .profile-blue-3 {
   display: none;
 }
 
-div.message-green { position: absolute; left: 50px; bottom: -65px;}
-div.messaging-blue { position: absolute; left: 50px; bottom: -48px;}
+div.message-green {
+  position: absolute;
+  left: 50px;
+  bottom: -65px;
+}
+
+div.message-green:hover {
+  background: url(../css/sprites.png) no-repeat;
+  background-position: -293px -221px;
+}
+/*div.messaging-blue { position: absolute; left: 50px; bottom: -65px;}*/
 div#message:hover .message-blue {
   display: none;
 }
 
-div.tag-green { position: absolute; left: 46px; bottom: -65px;}
-div.tag-blue { position: absolute; left: 50px; bottom: -46px;}
+div.tag-green {
+  position: absolute;
+  left: 50px;
+  bottom: -65px;
+}
+
+div.tag-green:hover {
+  background: url(../css/sprites.png) no-repeat;
+  background-position: -392px -220px;
+}
+/*div.tag-blue { position: absolute; left: 50px; bottom: -65px;}*/
 div#tag:hover .tag-blue {
   display: none;
 }
 
-div.page-green { position: absolute; left: 50px; bottom: -65px;}
-div.page-blue { position: absolute; left: 55px; bottom: -45px;}
+div.page-green {
+  position: absolute;
+  left: 50px;
+  bottom: -65px;
+}
+
+div.page-green:hover {
+  background: url(../css/sprites.png) no-repeat;
+  background-position: -477px -220px;
+}
+/*div.page-blue { position: absolute; left: 50px; bottom: -65px;}*/
 div#page:hover .page-blue {
   display: none;
 }
 
-div.bar-green { position: absolute; left: 50px; bottom: -65px;}
-div.bar-blue { position: absolute; left: 58px; bottom: -49px;}
+div.bar-green {
+  position: absolute;
+  left: 50px;
+  bottom: -65px;
+ }
+
+ div.bar-green:hover {
+   background: url(../css/sprites.png) no-repeat;
+   background-position: -564px -217px;
+ }
+/*div.bar-blue { position: absolute; left: 50px; bottom: -65px;}*/
 div#bar:hover .bar-blue {
   display: none;
  }
@@ -664,8 +744,4 @@ span.youtube {
   border-right-style: solid;
   border-right-width: 1px;
   border-right-color: #dddddd;
-}
-
-.social {
-
 }

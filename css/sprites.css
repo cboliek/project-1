@@ -4,6 +4,9 @@
 	display: block;
 }
 
+.dashboard-green, .profile-green-3, .message-green, .tag-green, .page-green, .bar-green {
+	margin-left: 40px;
+}
 .Application-Dashboard{
 	background-position: -638px -413px ;
 	width: 23px;
@@ -98,6 +101,7 @@
 	background-position: 0 -30px ;
 	width: 1200px;
 	height: 111px;
+	re
 }
 
 .message-blue{
