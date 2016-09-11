@@ -514,12 +514,14 @@ input[type="checkbox"] + label span {
 	height: 21px;
   margin:-1px 0 0 0;
   vertical-align:middle;
-  /*background: url(sprites.png) -215px -317px no-repeat;*/
+  background: url(sprites.png) no-repeat;
+  background-position: -313px -396px;
   cursor: pointer;
 }
 
 input[type="checkbox"]:checked + label span {
-  /*background: url(sprites.png) -216px -263px no-repeat;*/
+  background: url(sprites.png) no-repeat;
+  background-position: -432px -486px;
 }/*code from http://webdesign.tutsplus.com/tutorials/quick-tip-easy-css3-checkboxes-and-radio-buttons--webdesign-8953*/
 
 /*end analytics*/
@@ -532,13 +534,13 @@ input[type="checkbox"]:checked + label span {
 
 span.ribbon-left {
   position: relative;
-  top: -10.3em;
+  top: -7.3em;
   left: -2.2em;
 }
 
 span.ribbon-right {
   position: relative;
-  top: -13.1em;
+  top: -10em;
   left: 14.45em;
 }
 
@@ -547,7 +549,7 @@ span.ribbon-right {
   align-content: center;
 }
 
-.white-box {
+.contact-box {
   border-radius: 3px;
   -moz-box-shadow: 0 2px 3px 3px #b2b2b2;
   -webkit-box-shadow: 0 2px 3px 3px #b2b2b2;
@@ -622,16 +624,16 @@ div.orange-line {
 .arrow-orange-left-back {
   float: left;
   position: relative;
-    top: 2em;
-    left: -3em;
+    top: 1.2em;
+    left: -4.5em;
   margin-right: -0.5em;
 }
 
 .arrow-orange-right-back {
   float: right;
   position: relative;
-    top: 2em;
-    left: 0em;
+    top: 1.2em;
+    left: .8em;
 
 }
 
