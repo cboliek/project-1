@@ -137,7 +137,8 @@ div#dashboard:hover .dashboard-blue {
 
 div.profile-green-3 {
   position: absolute;
-  left: 50px; bottom: -65px;}
+  left: 40px; bottom: -65px;}
+
 
 div.profile-green-3:hover {
   background: url(../css/sprites.png) no-repeat;
@@ -150,7 +151,8 @@ div#profile-3:hover .profile-blue-3 {
 
 div.message-green {
   position: absolute;
-  left: 50px;
+  top: 28px;
+  left: 75px;
   bottom: -65px;
 }
 
@@ -165,7 +167,8 @@ div#message:hover .message-blue {
 
 div.tag-green {
   position: absolute;
-  left: 50px;
+  top: 25px;
+  left: 110px;
   bottom: -65px;
 }
 
@@ -180,7 +183,8 @@ div#tag:hover .tag-blue {
 
 div.page-green {
   position: absolute;
-  left: 50px;
+  top: 25px;
+  left: 140px;
   bottom: -65px;
 }
 
@@ -195,7 +199,8 @@ div#page:hover .page-blue {
 
 div.bar-green {
   position: absolute;
-  left: 50px;
+  top: 24px;
+  left: 160px;
   bottom: -65px;
  }
 
@@ -577,13 +582,14 @@ span.ribbon-right {
   color: #fff;
 }
 
-div.green-body {
+div.profile-green {
   display: block;
   margin: 0 auto;
   margin-top: -1.8em;
+
 }
 
-div.orange-body {
+div.orange-graph {
   display: block;
   margin: 0 auto;
   margin-top: -1.8em;
@@ -666,6 +672,8 @@ div.orange-line {
 
 .version {
   margin: 0 0 0 0.05em;
+  margin-left: -18.5px;
+  margin-top: -11px;
 }
 
 @media screen and (min-width: 1200px) {
@@ -691,7 +699,7 @@ div.orange-line {
   margin-top: 1em;
 }
 
-div.gray-box {
+div.grey-box {
   padding-top: 0.7em;
 }
 
