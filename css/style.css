@@ -55,6 +55,13 @@ div.side-border-top {
 
 }
 
+@media screen and (max-width: 700px) {
+  #dashboard {
+    display: in;
+
+  }
+
+}
 /*img {
   position: relative;
   background-image: url("../project-1/css/menu-background.png");
@@ -97,7 +104,6 @@ div.side-border-top {
     top: -0.6em;
     left: -3.7em;
     /*padding: 2px 2px 2px 2px;*/
-    zoom: 0.7;
   }
   #dash, #profile-3, #message, #tag, #page, #bar {
 
@@ -106,12 +112,12 @@ div.side-border-top {
 
 
 
-
+/*
 .mark {
   background-image: url("../css/white-mark.png") no-repeat;
     margin-top: 7em;
     margin-left: 6em;
-}
+}*/
 
 div.dashboard-green {
   position: absolute;
