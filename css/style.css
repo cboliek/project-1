@@ -94,22 +94,23 @@ div.side-border-top {
 @media screen and (max-width: 640px) {
   .main-menu {
     position: relative;
-    top: -1.6em;
+    top: -0.6em;
     left: -3.7em;
-    margin: auto;
+    /*padding: 2px 2px 2px 2px;*/
+    zoom: 0.7;
   }
   #dash, #profile-3, #message, #tag, #page, #bar {
-    margin: 0 0 0 0;
+
   }
 }
 
 
 
 
-.selector {
-  position: relative;
-    bottom: -4.9em;
-    left: 3em;
+.mark {
+  background-image: url("../css/white-mark.png") no-repeat;
+    margin-top: 7em;
+    margin-left: 6em;
 }
 
 div.dashboard-green {
@@ -229,6 +230,7 @@ div#bar:hover .bar-blue {
   color: #ffffff;
 }
 
+
 #searchbar {
   border: 1px solid #2db55b;
   border-radius:4px;
@@ -237,6 +239,12 @@ div#bar:hover .bar-blue {
   /*background: white url(sprites.png) -638px -413px no-repeat;*/
   width: 13.8em;
   height: 30px;
+
+}
+
+.Application-Dashboard {
+  position: absolute;
+
 }
 
 @media screen and (max-width: 640px) {
@@ -250,7 +258,7 @@ div#bar:hover .bar-blue {
 
 /*start body content*/
 body {
-  font-family: "Myriad Pro", san-serif;
+  font-family: "Myriad Pro", sans-serif;
   overflow-x: hidden;
 
 
@@ -294,6 +302,10 @@ h2 {
 a.arrow-orange-left, a.arrow-orange-right {
   display: inline-flex;
   margin: 0.8em 0 0 0;
+}
+
+.arrow-orange-right {
+  padding-left: 30px;
 }
 
   /*end announcements row */
@@ -483,6 +495,18 @@ select#dropdown {
 .social-checks {
   margin: 1em 0.4em 0 0.4em;
   display: inline;
+}
+
+.graph-big {
+  margin-left: 10px;
+  margin-top: 20px;
+}
+
+@media screen and (max-width: 700px) {
+  .graph-big {
+    position: relative;
+  }
+
 }
 
 div.facebook-label, div.twitt-label, div.foursq-label, div.google-label {
@@ -690,6 +714,7 @@ div.orange-line {
     position: relative;
       top: -1em;
   }
+  }
 }
 /*end promo*/
 /*end body content*/
@@ -701,6 +726,7 @@ div.orange-line {
 
 div.grey-box {
   padding-top: 0.7em;
+  border-color: gray;
 }
 
 p.foot {
@@ -723,6 +749,10 @@ span.footer-up-arrow {
 .foot.float-right {
   font-size: 1em;
   padding-left: 2em;
+}
+
+.arrow-blue {
+  float: right;
 }
 
 span.footer-avatar {
