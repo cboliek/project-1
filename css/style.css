@@ -106,7 +106,7 @@ div.side-border-top {
     /*padding: 2px 2px 2px 2px;*/
   }
   #dash, #profile-3, #message, #tag, #page, #bar {
-
+    margin: 0 0 0 0;
   }
 }
 
